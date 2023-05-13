@@ -1,0 +1,226 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+        <title>Robomania | 2K23</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="theme-color" content="#333333">
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <link rel="apple-touch-icon" href="img/plogo2k15.png">
+        <link rel="shortcut icon" href="img/plogo2k15.png" type="image/x-icon" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+
+        <style media="screen">
+          html, body{
+            overflow-y: hidden;
+          }
+          #loading-screen{
+            background-color: #cd2929;
+            float: left;
+            position: absolute;
+            z-index: 25;
+          }
+          .loader-box{
+            width: 500px;
+            height: auto;
+            margin: auto auto;
+            position:absolute;
+             left:50%;
+             top:50%;
+             margin-left:-200px;
+             margin-top:-50px;
+             box-sizing: border-box;
+          }
+          .loader-message{
+            float: right;
+            height: 75px;
+            margin-top: -50px;
+            box-sizing: border-box;
+            text-align: left;
+            width: 80%;
+            color: #fff;
+            font-family: Helvetica, Arial, sans-serif;
+            font-variant: small-caps;
+            font-size: 50px;
+          }
+          .loading {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: solid 10px rgba(255, 255, 255, 0.2);
+            border-top-color: #FFF;
+            animation: spin 1s infinite linear;
+          }
+          @keyframes spin {
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          @media only screen and (min-width: 320px) and (max-width:549px){
+              .loader-box{margin-left: -240px;}
+              .loading{position: relative; bottom: 80px;
+              left:40%;}
+          }
+        </style>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="loading-screen">
+          <div class="loader-box"><div class="loading"></div><div class="loader-message">The Warzone. . .</div></div>
+        </div>
+
+        <script type="text/javascript">
+          window.onbeforeunload = function(){
+            window.scrollTo(0,0);
+          }
+          var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+          var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+          document.getElementById('loading-screen').setAttribute("style","width:100%; height:100%;");
+          document.getElementById('loading-screen').style.width='100%';
+          document.getElementById('loading-screen').style.height='100%';
+        </script>
+
+        <div class="scroll-down"><img src="img/scroll-down.png" alt="scroll down" width="100%"/></div>
+
+        <header class="top-bar ">
+          <div class="wrap960">
+            <div class="logo-box"> <div class="logo"><img src="img/plogo2k15-removebg-preview.png" width = "100%" height="100%"><a href="index.html"><p>Robomania</p></a></div></div>
+            <div class="menu-button"> </div>
+            <div class="nav-box">
+              <ul class="nav">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Team">Team</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#Register">Register</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <div name="Home" class="home-slide">
+          <div class="overlay-pattern">
+            <div class="para-slide">
+              <div class="pre-para invisible">Hi All</div>
+                <div class="para">Robo</div><div class="digm">Mania</div>
+                <div class="post-para">2K23</div>
+            </div>
+          </div>
+        </div>
+
+        <div name="About" class="about-container" >
+          <div class="section-title">About<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
+          <div class="about-para">
+                <p><span>Robomania</span> is an annual robotics fest organized by the <span>Robotics Club, MMMUT (Gorakhpur)
+                   </span>.<br> Participants have the opportunity to collaborate with other like-minded individuals.
+                    <br>Robomania is a must-attend event for anyone interested in pushing the boundaries of what is possible in the field of robotics.<br>
+                  </p>
+          </div>
+
+          <div class="main-logo-container">
+            <div class="main-logo">
+                <img src="img/plogo2k15-removebg-preview.png" width="100%"/>
+            </div>
+          </div>
+          <div class="para-detail-container">
+            <div class="num-event">
+                <span>10</span><br>events
+            </div>
+            <div class="event-date">
+                <span>12 - 14 April</span><br>event date
+            </div>
+            <div class="cash-prize">
+                <span>1Lac+</span><br>Prizes
+            </div>
+          </div>
+
+        </div>
+
+        <div name="Team" class="team-container">
+            <div class="black-overlay">
+              <div class="section-title member-detail">Core Team<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
+              <div class="container">
+                <div class="row">
+                  <div class="add">
+                    <div class="three columns"><div class="member-photo"><img src="img/rcgroup.jpg" alt="Treasurer" width="200%" /></div><span class="member-name"><a target="_blank" href="https://www.instagram.com/robotics_club_mmmut/">RoboticsClub</a></span><br><span class="member-post">2K23</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div name="Events" class="event-container">
+            <div class="container">
+              <div class="section-title ">Events<p>&diams;&nbsp;&diams;&nbsp;&diams;</p><br></div>
+              <p>
+                <h2>Web Quest</h2><br>
+                <h2>Electro-NFS</h2><br>
+                <h2>RoboWar</h2><br>
+                <h2>Cladding the Code</h2><br>
+                <h2>Electro Chess</h2><br>
+                <h2>Pentball</h2>
+        
+              </p>
+            </div>
+        </div>
+        <!-- <div class="arrow"> -->
+        <div class="leftarrow">
+            <img src="img/left-arrow.png" width="40px" height="70px" />
+        </div>
+        <div class="rightarrow">
+            <img src="img/right-arrow.png" width="40px" height="70px"/>
+        </div>
+        <!-- </div> -->
+
+          <div name="Register" class="register-container">
+            <div class="black-overlay">
+              <div class="section-title member-detail">Register<p>&diams;&nbsp;&diams;&nbsp;&diams;</p></div>
+              <div class="register-info">Registrations will Close Soon <span style="color:#cd2929">Hurry Up !</span><br><br><br><a class="reg-button" href="form.html">Register Now</a><br><br><br></div>
+            </div>
+          </div>
+          <div name="Map" class="ssn-map">
+            <div class="map-line"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7127.026875293712!2d83.43986140000003!3d26.727986899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1683994612271!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-line"></div>
+            <div class="contact-us" id="contact-us">
+              <div style="width:70%;"></div>
+              <div style="background:#cd2929; width:30%; padding: 20px;">
+                <b><span style="font-size: 1.2em">Contact Us:</span></b><br>
+                Himanshu Dubey  : +91 88533 21995<br>
+                Anikalp Jaiswal : +91 93052 21664<br>
+              
+                <br>
+                <a style="color: white;text-decoration: none;" href="https://www.instagram.com/robotics_club_mmmut/"><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;Instagram&nbsp;&nbsp;</a>
+                <a style="color: white;text-decoration: none;" href="mailto:hdubey261102@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;robomania2k23</a>
+              </div>
+            </div>
+
+          </div>
+
+  <!-- FOOTER -->
+          <footer>
+            <div class="foot">
+              Copyright &copy; <a href="https://www.instagram.com/robotics_club_mmmut/">2023 Robomania.</a><br />
+              </div>
+          </footer>
+
+  <!-- FOOTER ENDS -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
